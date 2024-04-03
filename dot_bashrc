@@ -34,4 +34,5 @@ function istoolbox() {
 }
 
 # Custom aliases
-alias l.='ls -dlhF .\* | grep -v "^d"'
+alias l.='ls -ldh .*'
+alias l='ls -lh'

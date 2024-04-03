@@ -36,3 +36,5 @@ function istoolbox() {
 # Custom aliases
 alias l.='ls -ldh .*'
 alias l='ls -lh'
+
+alias sdr='systemctl --user daemon-reload'

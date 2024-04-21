@@ -33,6 +33,8 @@ function istoolbox() {
     fi
 }
 
+HISTCONTROL=ignoreboth
+
 # Custom aliases
 alias l.='ls -ldh .*'
 alias l='ls -lh'

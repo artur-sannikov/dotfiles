@@ -9,10 +9,11 @@
     "editor.letterSpacing": 0.4,
     // Enable smooth scrolling in the editor
     "editor.smoothScrolling": true,
-    
-    // Treat HuJSON as JSONc style
+
+    // Custom reassignment of extensions
     "files.associations": {
-        "*.hujson": "jsonc"
+        "*.hujson": "jsonc",
+        "*.bu"    : "yaml",
     },
     "json.schemas": [{
         "fileMatch": ["*.hujson"],

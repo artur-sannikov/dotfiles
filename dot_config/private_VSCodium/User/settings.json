@@ -22,5 +22,16 @@
         }
     }
 ],
-"redhat.telemetry.enabled": false
+    "nix.enableLanguageServer": true,
+    "nix.serverPath": "nixd",
+
+    "nix.serverSettings": {
+        // settings for 'nixd' LSP
+        "nixd": {
+            "formatting": {
+                "command": [ "nixpkgs-fmt" ]
+            },
+        }
+  },
+    "redhat.telemetry.enabled": false
 }

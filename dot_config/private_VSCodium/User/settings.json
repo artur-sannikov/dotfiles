@@ -29,7 +29,7 @@
         // settings for 'nixd' LSP
         "nixd": {
             "formatting": {
-                "command": [ "nixpkgs-fmt" ]
+                "command": [ "nixfmt" ]
             },
         }
   },

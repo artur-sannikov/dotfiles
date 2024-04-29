@@ -35,6 +35,9 @@ function istoolbox() {
 
 HISTCONTROL=ignoreboth
 
+# Hook nix-direnv into the shell
+eval "$(direnv hook bash)"
+
 # Custom aliases
 alias l.='ls -ldh .*'
 alias l='ls -lh'

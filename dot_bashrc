@@ -38,6 +38,9 @@ HISTCONTROL=ignoreboth
 # Hook nix-direnv into the shell
 eval "$(direnv hook bash)"
 
+# Activate starship
+eval "$(starship init bash)"
+
 # Custom aliases
 alias l.='ls -ldh .*'
 alias l='ls -lh'

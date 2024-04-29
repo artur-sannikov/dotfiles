@@ -33,5 +33,6 @@
             },
         }
   },
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "ansible.validation.lint.arguments": "-c ~/.config/ansible-lint.yml"
 }

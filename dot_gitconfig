@@ -1,0 +1,16 @@
+[commit]
+	gpgsign = true
+[user]
+	name = Artur Sannikov
+	signingKey = /home/artur/.ssh/git-sign.pub
+	email = 40318410+artur-sannikov@users.noreply.github.com
+[gpg]
+	format = ssh
+[credential]
+	helper = cache
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	cm = commit
+	st = status

@@ -9,30 +9,33 @@
     "editor.letterSpacing": 0.4,
     // Enable smooth scrolling in the editor
     "editor.smoothScrolling": true,
-
     // Custom reassignment of extensions
     "files.associations": {
         "*.hujson": "jsonc",
-        "*.bu"    : "yaml",
+        "*.bu": "yaml",
     },
-    "json.schemas": [{
-        "fileMatch": ["*.hujson"],
-        "schema": {
-            "allowTrailingCommas": true
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "*.hujson"
+            ],
+            "schema": {
+                "allowTrailingCommas": true
+            }
         }
-    }
-],
+    ],
     "nix.enableLanguageServer": true,
     "nix.serverPath": "nixd",
-
     "nix.serverSettings": {
         // settings for 'nixd' LSP
         "nixd": {
             "formatting": {
-                "command": [ "nixfmt" ]
+                "command": [
+                    "nixfmt"
+                ]
             },
         }
-  },
+    },
     "redhat.telemetry.enabled": false,
     "ansible.validation.lint.arguments": "-c ~/.config/ansible-lint.yml"
 }

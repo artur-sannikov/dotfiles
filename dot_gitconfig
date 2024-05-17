@@ -17,3 +17,5 @@
 	cm = commit
 	st = status
         cob = checkout -b
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"

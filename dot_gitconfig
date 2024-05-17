@@ -8,6 +8,8 @@
 	format = ssh
 [credential]
 	helper = cache
+[merge]
+        merge.conflictstyle zdiff3
 [init]
 	defaultBranch = main
 [alias]

@@ -1,5 +1,7 @@
 [commit]
 	gpgsign = true
+[diff]
+	algorithm = histogram
 [user]
 	name = Artur Sannikov
 	signingKey = /home/artur/.ssh/git-sign.pub

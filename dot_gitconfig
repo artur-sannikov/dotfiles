@@ -2,6 +2,7 @@
 	gpgsign = true
 [diff]
 	algorithm = histogram
+        colorMoved = default
 [user]
 	name = Artur Sannikov
 	signingKey = /home/artur/.ssh/git-sign.pub

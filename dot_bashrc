@@ -43,3 +43,8 @@ alias l.='ls -ldh .*'
 alias l='ls -lh'
 
 alias sdr='systemctl --user daemon-reload'
+
+dir_size() {
+       du -hs "$1"
+   }
+

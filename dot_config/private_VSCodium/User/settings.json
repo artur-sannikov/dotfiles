@@ -37,7 +37,6 @@
         }
     },
     "redhat.telemetry.enabled": false,
-    "ansible.validation.lint.arguments": "-c ~/.config/ansible-lint.yml",
     // Remove traling whitespace on save
     "files.trimTrailingWhitespace": true
 }
